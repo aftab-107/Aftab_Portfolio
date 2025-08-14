@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aftab Alam Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "InkFgQsAkrGZm1Q14",
+      });
+   })();
+</script>
+<script src="script.js"></script>
+
+
+
+</head>
+
+<body>
+  <header>
+
+  <h1 class="he">ITStudent</h1>
+  <div class="menu-toggle" id="mobile-menu">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skill</a></li>
+      
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <section class="hero">
+    <div class="text">
+      <h1>Hi, It's <span class="aftab">Aftab</span></h1>
+      <h2>I'm a <span class="web-dev">Web Developer</span></h2>
+<p>
+I'm a Web Developer  
+I specialize in building responsive, high-performance web applications using Java, Spring Boot, and modern front-end technologies. I'm passionate about creating clean, scalable code and delivering smooth user experiences.
+</p> 
+      <div class="social-media">
+
+  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/aftab-alam-519b432a5/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://github.com/aftab-107" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+      <div class="buttons">
+        
+        <a href="#contact" class="btn contact">Contact</a>
+      </div>
+    </div>
+    <div class="image">
+      <img src="IMG_20241224_115147.jpg" alt="Mark" />
+    </div>
+  </section>
+  <!-- Inside your <body> -->
+<section id="about" class="about-section">
+  <h2>About Me</h2>
+  <p>
+  I'm a Computer Science student and aspiring Java Developer. I enjoy learning new technologies and building projects that solve real-world problems. I'm currently focusing on Java, Spring Boot, and web development.
+</p>
+
+</section>
+<section id="skills" tabindex="-1" aria-labelledby="skills-title">
+      <h2 id="skills-title">My Skills</h2>
+      <div class="skills-grid" role="list">
+         <div class="skill-card" role="listitem" tabindex="0" aria-label="HTML5">
+    <span class="material-icons skill-icon" aria-hidden="true">language</span>
+    HTML5
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="CSS3">
+    <span class="material-icons skill-icon" aria-hidden="true">palette</span>
+    CSS3
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="JavaScript">
+    <span class="material-icons skill-icon" aria-hidden="true">code</span>
+    JavaScript
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="Angular">
+    <span class="material-icons skill-icon" aria-hidden="true">integration_instructions</span>
+    Angular
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="Spring Boot">
+    <span class="material-icons skill-icon" aria-hidden="true">widgets</span>
+    Spring Boot
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="Git">
+    <span class="material-icons skill-icon" aria-hidden="true">merge_type</span>
+    Git
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="MySQL">
+    <span class="material-icons skill-icon" aria-hidden="true">storage</span>
+    MySQL
+  </div>
+
+  <div class="skill-card" role="listitem" tabindex="0" aria-label="MongoDB">
+    <span class="material-icons skill-icon" aria-hidden="true">dns</span>
+    MongoDB
+  </div>
+
+      </div>
+    </section>
+
+     <<section id="projects" tabindex="-1" aria-labelledby="projects-title">
+  <h2 id="projects-title">Projects</h2>
+  <div class="projects-grid" role="list">
+    
+    <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project1-title" aria-describedby="project1-desc">
+      <img src="image.png" alt="Screenshot of personal portfolio website project" class="project-image" />
+      <div class="project-content">
+        <h3 id="project1-title" class="project-title">Personal Portfolio Website</h3>
+        <p id="project1-desc" class="project-description">
+          Created a fully responsive and accessible portfolio website using HTML and modern CSS techniques. Implemented smooth animations and interactive UI components.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/yourgithub/portfolio" target="_blank" rel="noopener" class="project-link">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project2-title" aria-describedby="project2-desc">
+      <img src="Smart.png" alt="Screenshot of task manager app project" class="project-image" />
+      <div class="project-content">
+        <h3 id="project2-title" class="project-title">Smart Campus Surveillance & Guidance System</h3>
+        <p id="project2-desc" class="project-description">
+         Developed an intelligent campus monitoring system using Spring Boot and Angular, integrated with machine learning models and MongoDB. The system detects unauthorized access, identifies students outside classrooms during class hours, and guides them with real-time notifications. Designed to enhance security and student discipline across the campus
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/yourgithub/task-manager" target="_blank" rel="noopener" class="project-link">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="project-card" role="listitem" tabindex="0" aria-labelledby="project3-title" aria-describedby="project3-desc">
+      <img src="https://placehold.co/400x180?text=Weather+Dashboard" alt="Screenshot of weather dashboard project" class="project-image" />
+      <div class="project-content">
+        <h3 id="project3-title" class="project-title">Weather Dashboard</h3>
+        <p id="project3-desc" class="project-description">
+          Built a weather dashboard with API integration to fetch current weather and forecast data. Styled for usability and mobile friendliness.
+        </p>
+        <div class="project-links">
+          <a href="https://github.com/yourgithub/weather-dashboard" target="_blank" rel="noopener" class="project-link">GitHub</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+   <section id="contact" tabindex="-1" aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <form class="contact-form" aria-label="Contact form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! I will get back to you soon.'); this.reset();">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required aria-required="true" placeholder="Your full name" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required aria-required="true" placeholder="your.email@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message here..."></textarea>
+
+        <button type="submit" onclick="sendMail()">Send Message</button>
+      </form>
+    </section>
+</section>
+
+
+<!--   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+<script>
+  const menuToggle = document.getElementById('mobile-menu');
+  const navList = document.querySelector('nav ul');
+
+  menuToggle.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
